@@ -1,5 +1,6 @@
 csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
 friends_list = ['Exercise: fill me with names']
+friends_list = ",".join(",".join(csv.split(";")).split(":")).split(",")
 print(friends_list)
 # From the list above fill a list(friends_list) properly
 # with the names of all the friends. One per "slot"
