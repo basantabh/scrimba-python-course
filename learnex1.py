@@ -2,7 +2,7 @@
   #total_noodles= int(input("Enter total noodles"))
 #percent_of_noodles = (number_of_chauchau/total_noodles)*100
 #print(f"The percent of noodles you have is {percent_of_noodles}%.")
-
+#Above is a code proof that percentange sign isn't necessary to calculate percent in python
 msg='Welcome to Python 101: Strings'
 #From this string,extract and print' Welcome 1 RIng To Tyler':Exactly 
 #ANSWER
