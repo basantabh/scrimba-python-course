@@ -1,10 +1,11 @@
-#number_of_chauchau = int(input("Enter number of chauchau "))
-  #total_chauchau = int(input("Enter total chauchau "))
-#percent_of_chauchau = (number_of_chauchau/total_chauchau)*100
-#print(f"The percent of chauchau you have is {percent_of_chauchau}%.")
+#number_of_noodles = int(input("Enter number of noodles"))
+  #total_noodles= int(input("Enter total noodles"))
+#percent_of_noodles = (number_of_chauchau/total_noodles)*100
+#print(f"The percent of noodles you have is {percent_of_noodles}%.")
 
 msg='Welcome to Python 101: Strings'
-
+#From this string,extract and print' Welcome 1 RIng To Tyler':Exactly 
+#ANSWER
 txt=msg[25:29:1]
 x=txt.capitalize()
 
