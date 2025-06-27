@@ -29,7 +29,9 @@ def num_days(month):
 # optimize/shorten the code in the function
 # try to reduce the number of conditionals
 
-#ANSWER_BELOW
+##########################################
+
+#ANSWER_1(Dictionary)
 MonthList = {
     "January":31,
     "Feburuary":28,
@@ -46,3 +48,19 @@ MonthList = {
 }
 Month=input("Enter the month(full_name):")
 print(f"{Month} has {MonthList[Month]} days in it.")
+
+#########################################################
+
+#ANSWER_2(Scrimba)
+def num_days(month):
+
+    if month == 'jan' or month == 'mar' or month == 'may' or month == 'jul' or month == 'aug' or month == 'oct' or month == 'dec':
+        print('number of days in',month,'is',31)
+    elif month == 'feb':
+        print('number of days in',month,'is',28)
+    else:
+        print('number of days in',month,'is',30)
+
+num_days('jul')
+# optimize/shorten the code in the function
+# try to reduce the number of conditionals 

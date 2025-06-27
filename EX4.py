@@ -9,3 +9,4 @@ friends_list = ",".join(",".join(csv.split(";")).split(":")).split(",")
 print(friends_list)
 
 
+
